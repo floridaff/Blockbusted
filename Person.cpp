@@ -5,12 +5,12 @@
 using namespace std;
 
 //constructors
-Person :: Person(){Fname = "Jane"; Lname = "Doe"; email = "janedoe@gmail.com"; Age = 0; Gender = 'F';}
+Person :: Person(){Fname = "Jane"; Lname = "Doe"; Email = "janedoe@gmail.com"; Age = 0; Gender = 'F';}
 Person :: Person(string first, string second, string em; int myAge, char gen)
 {
   Fname = first;
   Lname = second;
-  email = em;
+  Email = em;
   Age = myAge;
   Gender = gen;
 }
@@ -22,7 +22,7 @@ string Person :: getFirstName()
 string Person ::  getLastName()
 {return Lname;}
 string Person ::  getEmail()
-{return email;}
+{return Email;}
 int Person ::  getAge()
 {return Age;}
 char Person ::  getGender()
@@ -33,7 +33,7 @@ void Person ::  setFirstName(string name)
 void Person ::  setLastName(string name)
 {Lname = name;}
 void Person ::  setEmail(string em)
-{email = em;}
+{Email = em;}
 void Person ::  setAge(int myAge)
 {Age = myAge;}
 void Person ::  setGender(char gen)
@@ -44,7 +44,7 @@ void Person :: printPerson()
 {
  cout << "\nFirst Name: " << Fname;
  cout << "\nLast Name: " << Lname;
- cout << "\nEmail Address: " << email;
+ cout << "\nEmail Address: " << Email;
  cout << "\nAge: " << Age;
  cout << "\nGender: " << Gender;
 }
