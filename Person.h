@@ -9,22 +9,25 @@ class Person
  private:
   string Fname;
   string Lname;
+  string email;
   int Age;
   char Gender;
  public:
 
   //constructors
   Person();
-  Person(string, string, int, char);
+  Person(string, string, string, int, char);
 
   //getters
   string getFirstName();
   string getLastName();
+  string getEmail();
   int getAge();
   char getGender();
   //setters
   void setFirstName(string);
   void setLastName(string);
+  void setEmail(string);
   void setAge(int);
   void setGender(char);
 
