@@ -9,7 +9,7 @@ class Person
  private:
   string Fname;
   string Lname;
-  string email;
+  string Email;
   int Age;
   char Gender;
  public:
