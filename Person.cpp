@@ -6,7 +6,7 @@ using namespace std;
 
 //constructors
 Person :: Person(){Fname = "Jane"; Lname = "Doe"; Email = "janedoe@gmail.com"; Age = 0; Gender = 'F';}
-Person :: Person(string first, string second, string em; int myAge, char gen)
+Person :: Person(string first, string second, string em, int myAge, char gen)
 {
   Fname = first;
   Lname = second;
