@@ -8,7 +8,7 @@ emp_verification::emp_verification(QWidget *parent) :
     ui->setupUi(this);
 
     blockbusted_db = QSqlDatabase::addDatabase("QSQLITE");
-    blockbusted_db.setDatabaseName("C:/Users/Josh/Desktop/BlockBusted/blockbusted_db.db");
+    blockbusted_db.setDatabaseName("C:/Users/Raymango/Downloads/blockbusted_db.db");
 
     //Checks to see if database opened
     if(!blockbusted_db.open())
